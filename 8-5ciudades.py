@@ -1,9 +1,9 @@
 def describir_ciudad(nombre, pais = 'Alemania'):
-    print(f'{nombre} está en {pais}.')
+    print(f'{nombre.title()} está en {pais.title()}.')
 
 describir_ciudad('berlin')
-describir_ciudad('Frankfurt')
-describir_ciudad('Madrid', 'España')
+describir_ciudad('frankfurt')
+describir_ciudad('madrid', 'españa')
 
 
 
