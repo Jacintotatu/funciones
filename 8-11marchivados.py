@@ -13,7 +13,7 @@ def mensajes_enviados(enviados):
         print(enviado)
 
 
-enviar_mensajes(mensajes[:], enviados) #copiamos los enviados otra vez en mensajes para tenerlos archivados.
+enviar_mensajes(mensajes[:], enviados) #copiamos, al poner [:] los enviados otra vez en mensajes para tenerlos archivados.
 mensajes_enviados(enviados)
 
 print(mensajes)
