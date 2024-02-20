@@ -17,16 +17,17 @@ La función debe devolver una cadena con la calificación.
 """
 
 def calificacion(nota_1, nota_2):
-    if nota_1 + nota_2 >= 100:
+    suma = nota_1 + nota_2
+    if suma >= 100:
         return 'Excelente'
-    elif nota_1 + nota_2 >= 80:
+    elif suma >= 80:
         return 'Muy Bien'
-    elif nota_1 + nota_2 >= 60:
+    elif suma >= 60:
         return 'Bien'
     else:
         return 'Insuficiente'
     
 calificacion = calificacion(20, 50)
-print(calificacion)
+print(f'la calificacion es de {calificacion}.')
 
 
