@@ -60,3 +60,6 @@ print(f'La media aritmetica es: \n{media}')
 
 
 
+
+
+
