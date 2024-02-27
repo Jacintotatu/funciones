@@ -11,3 +11,8 @@ def volumen(radio, altura):
 
 
 print(volumen(25, 10))
+
+def rectangulo(base, altura):
+    return base * altura
+
+print(rectangulo(4, 5))

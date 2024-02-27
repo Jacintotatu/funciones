@@ -13,5 +13,10 @@ def factura(bruto, iva = 21):
     """
     return bruto + bruto * iva / 100
 
-print(factura(1200, 10))
+print(factura(1000, 10))
+
+def horas(am):
+    return am + 12
+hora = int(input('Pon una hora: '))
+print(f'Las {hora}:00 AM son las {horas(hora)}:00 PM')
 
